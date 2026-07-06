@@ -43,7 +43,7 @@ export default function DoctorProfile({ onBookAppointment, branch }: DoctorProfi
                       priority
                     />
                     <span className="absolute bottom-3 left-3 right-3 bg-white/90 backdrop-blur-sm px-3 py-1.5 rounded-xl text-center text-[11px] font-black uppercase tracking-wider text-[var(--brand-teal-deep)] shadow-md">
-                      Dr. Ashutosh at work
+                      {doctor.name} at work
                     </span>
                   </div>
                 </div>
