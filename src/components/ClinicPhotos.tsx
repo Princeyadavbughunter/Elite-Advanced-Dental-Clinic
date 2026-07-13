@@ -186,7 +186,7 @@ export default function ClinicPhotos({ onBookAppointment, branch }: ClinicPhotos
             onClick={onBookAppointment}
             className="bg-[var(--brand-teal)] text-white px-10 py-4 rounded-xl font-semibold text-base hover:bg-[var(--brand-teal-dark)] transition-all btn-3d gradient-sheen"
           >
-            Visit Our {branch?.name || "Clinic"}
+            Visit Our Clinic
           </button>
         </div>
       </div>
