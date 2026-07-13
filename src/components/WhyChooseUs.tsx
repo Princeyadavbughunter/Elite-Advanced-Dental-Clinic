@@ -23,8 +23,8 @@ export default function WhyChooseUs({ branch }: WhyChooseUsProps) {
     },
     {
       icon: "🔬",
-      title: "In-House CBCT & Digital Workflow",
-      desc: "Every implant is planned with in-house CBCT imaging and an intraoral scanner for precise, predictable, technology-driven results.",
+      title: "Digital X-Ray & Intra Oral Scanner",
+      desc: "Every implant is planned with digital x-ray imaging and an intra oral scanner for perfect precision, predictability, and technology-driven results.",
     },
   ];
 

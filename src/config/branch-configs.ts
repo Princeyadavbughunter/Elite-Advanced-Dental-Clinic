@@ -66,6 +66,7 @@ export const branches: Record<string, BranchConfig> = {
       "10 years of trusted implant expertise",
       "Dental Implants starting from ₹25,000",
       "UPI, POS/Card payments accepted",
+      "World's best B class sterilization autoclave",
       "Technology-driven precision dentistry",
       "Advanced clear aligners for a confident smile"
     ],

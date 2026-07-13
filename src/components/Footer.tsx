@@ -67,7 +67,7 @@ export default function Footer({ branch }: FooterProps) {
               <div className="text-gray-300 space-y-1 text-xs">
                 <p className="font-bold text-white">{timings}</p>
                 <p className="text-gray-400">
-                  Sunday: Closed
+                  Sunday: Open
                 </p>
               </div>
             </div>
@@ -188,7 +188,7 @@ export default function Footer({ branch }: FooterProps) {
             <div className="relative flex flex-wrap items-center gap-2 pt-4 border-t border-gray-100">
               {[
                 { icon: "✓", label: "GST invoice" },
-                { icon: "✓", label: "Free first consult" },
+                { icon: "✓", label: "Free first consultation" },
                 { icon: "✓", label: "No hidden costs" },
               ].map((t, i) => (
                 <span key={i} className="inline-flex items-center gap-1.5 bg-gradient-to-r from-[var(--accent-pink-soft)]/40 to-[var(--brand-teal)]/10 px-2.5 py-1 rounded-full text-[10px] font-semibold text-gray-700">

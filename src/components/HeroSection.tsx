@@ -73,7 +73,7 @@ export default function HeroSection({ onBookAppointment, branch }: HeroSectionPr
             <div className="text-left">
               <p className="text-[9px] sm:text-[10px] text-[var(--accent-pink)] font-black uppercase tracking-[0.15em] sm:tracking-[0.2em] mb-0.5">Implants Starting at ₹15,000</p>
               <h3 className="text-gray-900 font-black text-base sm:text-lg md:text-2xl leading-none">
-                Fixed Teeth with <span className="text-gradient-logo">27 Yrs Trust</span>
+                Advanced <span className="text-gradient-logo">Dental Implants</span>
               </h3>
               <p className="text-gray-500 font-medium text-[10px] sm:text-[11px] md:text-sm mt-1">
                 No-Cost EMI · Invisalign Partner · Gurunanak Colony
@@ -120,10 +120,11 @@ export default function HeroSection({ onBookAppointment, branch }: HeroSectionPr
               Our Specializations
             </h2>
             <ul className="space-y-6 mb-12 text-[15px] text-gray-700 font-medium">
-              {(branch?.usps.slice(0, 3) || [
+              {(branch?.usps.slice(0, 4) || [
                 "Expert Dental Care",
                 "Advanced Painless Technology",
-                "All Treatments Under One Roof"
+                "All Treatments Under One Roof",
+                "World's best B class sterilization autoclave"
               ]).map((item, i) => (
                 <li key={i} className="flex items-center gap-4 group">
                   <span className="w-2 h-2 rounded-full bg-gradient-to-br from-[var(--accent-pink)] to-[var(--brand-teal)] group-hover:scale-150 transition-transform duration-300" />
