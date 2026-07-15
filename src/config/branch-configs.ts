@@ -77,25 +77,25 @@ export const branches: Record<string, BranchConfig> = {
     heroVideo: "/implant.mp4",
     reviews: [
       {
-        name: "Amit Sharma",
+        name: "Naveen kumar",
+        initials: "N",
+        title: "Very professional and friendly!",
+        meta: "Local Guide · 1 month ago",
+        review: "Cleaning of teeth done for me.doctors were very professional,staff were very friendly.ambience was very pleasant.more over equipment is very advanced.very much satisfied and would suggest everyone to visit once"
+      },
+      {
+        name: "bharath anantharaju",
+        initials: "B",
+        title: "A complete transformation!",
+        meta: "2 months ago",
+        review: "Choosing aligners at Elite Dental Clinic was one of the best decisions of my life. What started as a simple step to fix my teeth turned into a complete transformation of my confidence."
+      },
+      {
+        name: "Adviti Koneru",
         initials: "A",
-        title: "Best Implant Experience!",
-        meta: "Local Guide · 12 reviews · 3 months ago",
-        review: "I had my dental implant done by Dr. Surya Deep Chaganti and the entire experience was exceptional. He is extremely professional and highly skilled. The clinic is very well-equipped with technology-driven precision dentistry. Highly recommend Elite Advanced Dental Implants for anyone looking for quality dental care."
-      },
-      {
-        name: "Priya Singh",
-        initials: "P",
-        title: "Transformed My Smile with Aligners!",
-        meta: "Local Guide · 5 reviews · 1 month ago",
-        review: "I got my clear aligner treatment done at Elite Advanced Dental Implants and Aligners Clinic and I couldn't be happier. The clinic is modern, hygienic, and the staff is very warm and helpful. My smile has completely transformed and I feel so much more confident."
-      },
-      {
-        name: "Rahul Verma",
-        initials: "R",
-        title: "Excellent Customer Service!",
-        meta: "5 reviews · 2 months ago",
-        review: "After researching multiple dental clinics, I chose Dr. Surya Deep Chaganti for my implant procedure. The consultation was very thorough, and Dr. Surya explained every step clearly. The implant pricing starting from ₹25,000 is very reasonable for the quality of care you receive. A 5-star experience from start to finish!"
+        title: "Care and precision!",
+        meta: "3 weeks ago",
+        review: "Dr. Surya was patient, explained things clearly, and handled everything with a lot of care and precision, which made me feel relaxed throughout. The attention to detail and the way everything was handled made me feel like I was in good hands. The equipment and overall setup felt modern and well-maintained, too. Most importantly, the final result looks natural and exactly what I hoped for. Pricing also felt fair for the quality of care and treatment provided. And yes, ChatGPT definitely recommended the right place!"
       }
     ]
   }
